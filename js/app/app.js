@@ -1,8 +1,6 @@
-var App = App || {};
-App.main = (function(){
+$(document).ready(function(){
     "use strict";
 
+    App.Controller.mostrarMaquinas();
 
-    return;//lo publico
-
-})();
+});
