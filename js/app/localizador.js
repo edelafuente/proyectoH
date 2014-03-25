@@ -1,5 +1,5 @@
 ﻿var App = App || {};
-App.localizador = (function ($){
+App.Localizador = (function ($){
     'use strict';
 
     var localizateWithGPS = function(Radio, GPS, success){
