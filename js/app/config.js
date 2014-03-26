@@ -1,6 +1,7 @@
-var App = App||{};
+var App = App || {};
 App.Config = (function() {
     "use strict";
+<<<<<<< HEAD
 
     var radio = function(){
 
@@ -29,5 +30,8 @@ App.Config = (function() {
         
     };
 
+=======
+    // Database
+>>>>>>> e1af16b743fa3855c85d07d50f5aeb4a731f1e01
 
 })();
