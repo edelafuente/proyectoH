@@ -36,7 +36,7 @@ App.Data = (function() {
 
     return {
         conseguirMaquina : conseguirMaquina,
-        guardamaquina : guardamaquina,
+        guardarMaquinas : guardarMaquinas,
     };
 
 })();
