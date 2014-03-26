@@ -1,5 +1,6 @@
 <?php
 $data = $_POST['datos'];
 $file = "maquinaslocales.json"; 
-file_put_contents($file,$data);
+$res = file_put_contents($file,$data);
+echo $res;
 ?>
