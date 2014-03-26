@@ -6,8 +6,13 @@ App.Ui = (function() {
 
     };
 
+    var mostrarDetalles = function(){
+
+    };
+
     return {
         mostrarMaquinas : mostrarMaquinas,
+        mostrarDetalles : mostrarDetalles
     };
 
 
