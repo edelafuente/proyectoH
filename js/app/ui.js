@@ -2,11 +2,11 @@ var App = App||{};
 App.Ui = (function() {
     "use strict";
 
-    var mostrarMaquinas = function(){
+    var mostrarMaquinas = function(maquinas){
 
     };
 
-    var mostrarDetalles = function(){
+    var mostrarDetalles = function(maquina){
 
     };
 

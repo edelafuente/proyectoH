@@ -19,10 +19,12 @@ App.Controller = (function() {
     };
 
     var mostrarDetalles = function(e){
+            var id = this.dataset;
+            App.Data.conseguirMaquina(id, function(data){
+                var maquina = data;
+                App.Ui.mostrarDetalles(maquina);
+            });
 
-            var maquina = App.Data.conseguirMaquina();
-            //algo maquina = ...
-            App.Ui.mostrarDetalles(maquinas);
 
     };
 
