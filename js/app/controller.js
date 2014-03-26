@@ -5,7 +5,14 @@ App.Controller = (function() {
     var mostrarMaquinas = function(){
         App.localizador.localizateWithGPS(App.config.radio, App.config.gps, function(data){
             var maquinas = App.Filtros.filtro(data, App.config.filtros);
-            App.Data.guardarMaquinas(maquinas);
+            App.Data.guardarMaquinas(maquinas, function(data2){
+                if (data2 === 'false') {
+                    console.log('error, intentalo otra vez');
+                }
+                else{
+                    console.log('se han guardado'+ data2 + 'bytes');
+                }
+            });
             App.Ui.mostrarMaquinas(maquinas);
         });
     };
@@ -19,10 +26,12 @@ App.Controller = (function() {
     };
 
     var mostrarDetalles = function(e){
+            var id = this.dataset.id;
+            App.Data.conseguirMaquina(id, function(data){
+                var maquina = data;
+                App.Ui.mostrarDetalles(maquina);
+            });
 
-            var maquina = App.Data.conseguirMaquina();
-            //algo maquina = ...
-            App.Ui.mostrarDetalles(maquinas);
 
     };
 

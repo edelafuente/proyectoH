@@ -1,7 +1,3 @@
-{
-    "comidafria" : true,
-    "comidacaliente" : false,
-    "bebidafria" : true,
-    "bebidacaliente" : true,
-    "otros" : false
-}
+[
+    "comidafria", "bebidafria", "bebidacaliente"
+]
