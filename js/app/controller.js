@@ -20,7 +20,8 @@ App.Controller = (function() {
 
     var mostrarDetalles = function(e){
 
-            var maquinas = App.Data.conseguirMaquinas();
+            var maquina = App.Data.conseguirMaquina();
+            //algo maquina = ...
             App.Ui.mostrarDetalles(maquinas);
 
     };
