@@ -1,5 +1,6 @@
 <?php
-$data = $_POST['datos'];
-$file = "maquinaslocales.json"; 
-file_put_contents($file,$data);
+$data = $_REQUEST['datos'];
+$file = "BDL/maquinaslocales.json"; 
+$res = file_put_contents($file,$data);
+echo "$res";
 ?>
