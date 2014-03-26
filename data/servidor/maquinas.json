@@ -1,6 +1,6 @@
 [{
         "id": "1",
-        "ubuicacion": {
+        "ubicacion": {
             "longitud": 43.27633,
             "latitud": -2.024574
         },
@@ -8,7 +8,7 @@
         "urlimagen": "maq3.jpg"
     }, {
         "id": "2",
-        "ubuicacion": {
+        "ubicacion": {
             "longitud": 43.309628,
             "latitud": -1.983204
         },
@@ -16,7 +16,7 @@
         "urlimagen": "maq4.jpg"
     }, {
         "id": "3",
-        "ubuicacion": {
+        "ubicacion": {
             "longitud": 43.321119,
             "latitud": -1.982775
         },
@@ -24,7 +24,7 @@
         "urlimagen": "maq1.jpg"
     }, {
         "id": "4",
-        "ubuicacion": {
+        "ubicacion": {
             "longitud": 43.293825,
             "latitud": -1.994534
         },
@@ -32,7 +32,7 @@
         "urlimagen": "maq2.jpg"
     }, {
         "id": "5",
-        "ubuicacion": {
+        "ubicacion": {
             "longitud": 43.31681,
             "latitud": -1.938057
         },
@@ -40,7 +40,7 @@
         "urlimagen": "maq3.jpg"
     }, {
         "id": "6",
-        "ubuicacion": {
+        "ubicacion": {
             "longitud": 43.315187,
             "latitud": -1.981144
         },
@@ -48,7 +48,7 @@
         "urlimagen": "maq4.jpg"
     }, {
         "id": "7",
-        "ubuicacion": {
+        "ubicacion": {
             "longitud": 43.287453,
             "latitud": -2.014704
         },
@@ -56,7 +56,7 @@
         "urlimagen": "maq1.jpg"
     }, {
         "id": "8",
-        "ubuicacion": {
+        "ubicacion": {
             "longitud": 43.3145,
             "latitud": -1.939344
         },
@@ -64,7 +64,7 @@
         "urlimagen": "maq3.jpg"
     }, {
         "id": "9",
-        "ubuicacion": {
+        "ubicacion": {
             "longitud": 43.302695,
             "latitud": -1.881924
         },
@@ -72,7 +72,7 @@
         "urlimagen": "maq2.jpg"
     }, {
         "id": "10",
-        "ubuicacion": {
+        "ubicacion": {
             "longitud": 43.298198,
             "latitud": -1.881065
         },
