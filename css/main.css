@@ -5,11 +5,28 @@
 }
 #inicio{
     background-color: YellowGreen;
-    height: 200px;
+    height: 480px;
     padding: 1em;
     margin: 0;
 }
 #logo{
     display: block;
     padding: 1em;
+}
+
+.btn{
+    display: block;
+    width: 45%;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.fleft{
+    float: left;
+}
+
+.fright{
+    float: right;
 }
