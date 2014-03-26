@@ -1,0 +1,15 @@
+#titulo{
+    background-color: OrangeRed;
+    padding: 0.1;
+    margin: 0;
+}
+#inicio{
+    background-color: DarkOrange;
+    height: 200px;
+    padding: 1em;
+    margin: 0;
+}
+#logo{
+    display: block;
+    padding: 1em;
+}
