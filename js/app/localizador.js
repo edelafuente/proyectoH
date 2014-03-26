@@ -14,7 +14,7 @@ App.Localizador = (function ($){
     var localizate = function(Radio, GPS, success){
 
         $.ajax({
-            url : '../../data/datos.json',
+            url : '../../data/maquinas.json',
             type : 'POST',
             data: {
                     radio : Radio,
@@ -22,7 +22,7 @@ App.Localizador = (function ($){
                     lng : GPS.lng
                 },
             dataType : 'json',
-            cache : false,  
+            cache : false,
             success : function(data){
                 success(data);
             },

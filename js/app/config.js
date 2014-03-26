@@ -1,18 +1,16 @@
-var App = App || {};
+var App = App||{};
 App.Config = (function() {
     "use strict";
-<<<<<<< HEAD
 
     var radio = function(){
 
         $.ajax({
-            url : '../../data/servidor/maquinas.json',
+            url : '../../data/BDL/radio.json',
             type : 'POST',
             data : {},
             dataType : 'json',
             cache : false,  
-            success : function(data){
-                console.log(data);
+            success : function(data, textStatus, jqXHR){
                 return(data);
             },
             error : function(jqXHR, textStatus, errorThrown){
@@ -22,7 +20,23 @@ App.Config = (function() {
 
     };
 
-    radio();
+    var filtros = function(){
+
+        $.ajax({
+            url : '../../data/BDL/filtros.json',
+            type : 'POST',
+            data : {},
+            dataType : 'json',
+            cache : false,  
+            success : function(data, textStatus, jqXHR){
+                return(data);
+            },
+            error : function(jqXHR, textStatus, errorThrown){
+                console.log(errorThrown);
+            }
+        });
+
+    };
 
     return {
         radio : radio
@@ -30,8 +44,5 @@ App.Config = (function() {
         
     };
 
-=======
-    // Database
->>>>>>> e1af16b743fa3855c85d07d50f5aeb4a731f1e01
 
 })();
