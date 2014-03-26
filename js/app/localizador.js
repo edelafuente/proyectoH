@@ -15,7 +15,7 @@ App.Localizador = (function ($){
 
         $.ajax({
             url : '../../data/maquinas.json',
-            type : 'POST',
+            type : 'GET',
             data: {
                     radio : Radio,
                     lat : GPS.lat,
