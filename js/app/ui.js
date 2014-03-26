@@ -6,5 +6,10 @@ App.Ui = (function() {
 
     };
 
+    return {
+        mostrarMaquinas : mostrarMaquinas,
+    };
+
+
 
 })();
