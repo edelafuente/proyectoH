@@ -7,8 +7,28 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-    <div id="titulo" class="center-block">
-        <h1>K!Hambre</h1>
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">K!HAMBRE</a>
+        </div>
+        <div class="navbar-collapse collapse in" style="height: auto;">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="#buscar">Buscar</a></li>
+            <li><a href="#cdm">Cerca de mi</a></li>
+            <li><a href="#nuevamaquina">Añadir maquina</a></li>
+            <li><a href="#config">Configuracion</a></li>
+            <li><a href="#ayuda">Ayuda</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
     <div id="inicio" class="center-block">
         <span id="cdm" class="btn btn-lg btn-default fleft glyphicon glyphicon-map-marker"></span>
@@ -19,5 +39,7 @@
         <span id="ayuda" class="btn btn-lg btn-default fright glyphicon glyphicon-question-sign"></span>
     </div>
     <!--<script type="text/javascript" src="js/"></script>-->
+    <script src="js/vendor/jquery-1.11.0.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
 </body>
 </html>

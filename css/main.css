@@ -14,6 +14,7 @@
     padding: 1em;
 }
 
+
 .btn{
     display: block;
     width: 45%;
@@ -29,4 +30,46 @@
 
 .fright{
     float: right;
+}
+/* NAVBAR */
+.navbar{
+ background-color: #3a3;
+
+}
+
+.navbar-default .navbar-brand{
+color : #FFF;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+color : #AFA;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+background-color : #AFA;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+background-color : #3a3;
+}
+
+.navbar-default .navbar-nav > li > a{
+color : #AFA;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+color : #FFF;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+
+color: #555;
+background-color: #AFA;
+
+
+}
+
+.navbar.navbar-default.navbar-static-top{
+    margin-bottom: 0;
 }
