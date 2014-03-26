@@ -1,6 +1,6 @@
-var App = App||{};
+var App = App || {};
 App.Config = (function() {
     "use strict";
-
+    // Database
 
 })();

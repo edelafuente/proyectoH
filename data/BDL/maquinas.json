@@ -1,0 +1,71 @@
+[{
+    'id': '1',
+    'ubuicacion': '',
+    'contenido': {
+        'comidafria', 'comidacaliente', 'bebidafria', 'bebidacaliente', 'otros'
+    },
+    'urlimagen': 'maq1.jpg'
+}, {
+    'id': '2',
+    'ubuicacion': '',
+    'contenido': {
+        'comidafria', 'bebidafria', 'bebidacaliente', 'otros'
+    },
+    'urlimagen': 'maq2.jpg'
+}, {
+    'id': '3',
+    'ubuicacion': '',
+    'contenido': {
+        'comidafria', 'comidacaliente', 'bebidafria'
+    },
+    'urlimagen': 'maq3.jpg'
+}, {
+    'id': '4',
+    'ubuicacion': '',
+    'contenido': {
+        'bebidafria', 'bebidacaliente'
+    },
+    'urlimagen': 'maq4.jpg'
+}, {
+    'id': '5',
+    'ubuicacion': '',
+    'contenido': {
+        'comidafria', 'bebidafria', 'otros'
+    },
+    'urlimagen': 'maq2.jpg'
+}, {
+    'id': '6',
+    'ubuicacion': '',
+    'contenido': {
+        'comidacaliente'
+    },
+    'urlimagen': 'maq4.jpg'
+}, {
+    'id': '7',
+    'ubuicacion': '',
+    'contenido': {
+        'otros'
+    },
+    'urlimagen': 'maq1.jpg'
+}, {
+    'id': '8',
+    'ubuicacion': '',
+    'contenido': {
+        'comidafria', 'comidacaliente', 'bebidafria', 'bebidacaliente', 'otros'
+    },
+    'urlimagen': 'maq3.jpg'
+}, {
+    'id': '9',
+    'ubuicacion': '',
+    'contenido': {
+        'comidafria', 'bebidacaliente', 'otros'
+    },
+    'urlimagen': 'maq4.jpg'
+}, {
+    'id': '10',
+    'ubuicacion': '',
+    'contenido': {
+        'comidafria', 'bebidafria', 'otros'
+    },
+    'urlimagen': 'maq2.jpg'
+}, ]
