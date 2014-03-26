@@ -26,7 +26,7 @@ App.Controller = (function() {
     };
 
     var mostrarDetalles = function(e){
-            var id = this.dataset;
+            var id = this.dataset.id;
             App.Data.conseguirMaquina(id, function(data){
                 var maquina = data;
                 App.Ui.mostrarDetalles(maquina);
