@@ -2,6 +2,7 @@ var App = App || {};
 App.Config = (function() {
     "use strict";
 
+
     var loadDefaults = function() {
 
         var r = localStorage.getItem('radio');
@@ -15,16 +16,14 @@ App.Config = (function() {
             localStorage.setItem('radio', r || JSON.stringify(json2));
         });
 
+
         $.getJSON('data/BDL/filtros.json', function(json, textStatus) {
             /*optional stuff to do after success */
             localStorage.setItem('filtros', f || JSON.stringify(json));
         });
 
-
-
-
-
     };
+
 
 
 
@@ -45,8 +44,8 @@ App.Config = (function() {
         // });
 
         return JSON.parse(localStorage.getItem('radio'));
+    }
 
-    };
 
     var filtros = function() {
 
@@ -75,9 +74,13 @@ App.Config = (function() {
     }
 
     return {
+
         radio: radio,
         loadDefaults: loadDefaults,
         filtros: filtros
+
+
+
 
     };
 

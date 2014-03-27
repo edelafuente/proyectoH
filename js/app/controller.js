@@ -9,7 +9,7 @@ App.Controller = (function() {
                 if (data2 === 'false') {
                     console.log('error, intentalo otra vez');
                 } else {
-                    console.log('se han guardado' + data2.length + 'bytes');
+                    console.log('se han guardado ' + data2.length + ' bytes');
                 }
             });
             App.Ui.mostrarMaquinas(maquinas);

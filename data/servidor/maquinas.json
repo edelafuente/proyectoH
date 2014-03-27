@@ -5,7 +5,7 @@
             "latitud": -2.024574
         },
         "contenido": ["comidacaliente", "bebidacaliente", "comidafria", "bebidafria", "otros"],
-        "urlimagen": "maq3.jpg"
+        "urlimagen": "maq3.png"
     }, {
         "id": "2",
         "ubicacion": {
@@ -13,7 +13,7 @@
             "latitud": -1.983204
         },
         "contenido": ["comidafria", "bebidafria"],
-        "urlimagen": "maq4.jpg"
+        "urlimagen": "maq4.png"
     }, {
         "id": "3",
         "ubicacion": {
@@ -21,7 +21,7 @@
             "latitud": -1.982775
         },
         "contenido": ["comidacaliente", "bebidafria"],
-        "urlimagen": "maq1.jpg"
+        "urlimagen": "maq1.png"
     }, {
         "id": "4",
         "ubicacion": {
@@ -29,7 +29,7 @@
             "latitud": -1.994534
         },
         "contenido": ["comidacaliente", "comidafria"],
-        "urlimagen": "maq2.jpg"
+        "urlimagen": "maq2.png"
     }, {
         "id": "5",
         "ubicacion": {
@@ -37,7 +37,7 @@
             "latitud": -1.938057
         },
         "contenido": ["comidacaliente", "comidafria", "bebidafria", "otros"],
-        "urlimagen": "maq3.jpg"
+        "urlimagen": "maq3.png"
     }, {
         "id": "6",
         "ubicacion": {
@@ -45,7 +45,7 @@
             "latitud": -1.981144
         },
         "contenido": ["comidacaliente", "bebidacaliente", "bebidafria", "otros"],
-        "urlimagen": "maq4.jpg"
+        "urlimagen": "maq4.png"
     }, {
         "id": "7",
         "ubicacion": {
@@ -53,7 +53,7 @@
             "latitud": -2.014704
         },
         "contenido": ["bebidacaliente", "comidafria", "otros"],
-        "urlimagen": "maq1.jpg"
+        "urlimagen": "maq1.png"
     }, {
         "id": "8",
         "ubicacion": {
@@ -61,7 +61,7 @@
             "latitud": -1.939344
         },
         "contenido": ["bebidacaliente", "bebidafria"],
-        "urlimagen": "maq3.jpg"
+        "urlimagen": "maq3.png"
     }, {
         "id": "9",
         "ubicacion": {
@@ -69,7 +69,7 @@
             "latitud": -1.881924
         },
         "contenido": ["comidacaliente", "comidafria"],
-        "urlimagen": "maq2.jpg"
+        "urlimagen": "maq2.png"
     }, {
         "id": "10",
         "ubicacion": {
@@ -77,7 +77,7 @@
             "latitud": -1.881065
         },
         "contenido": ["comidacaliente", "bebidacaliente", "comidafria", "bebidafria", "otros"],
-        "urlimagen": "maq4.jpg"
+        "urlimagen": "maq4.png"
     }
 
 ]
