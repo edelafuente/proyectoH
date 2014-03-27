@@ -5,6 +5,8 @@ App.Config = (function() {
 
     var loadDefaults = function() {
 
+        App.DEBUGMODE = "ON";
+
         var r = localStorage.getItem('radio');
         var f = localStorage.getItem('filtros');
 
@@ -28,43 +30,12 @@ App.Config = (function() {
 
 
     var radio = function() {
-
-        // $.ajax({
-        //     url: 'data/BDL/radio.json',
-        //     type: 'POST',
-        //     data: {},
-        //     dataType: 'json',
-        //     cache: false,
-        //     success: function(data, textStatus, jqXHR) {
-        //         return (data);
-        //     },
-        //     error: function(jqXHR, textStatus, errorThrown) {
-        //         console.log(errorThrown);
-        //     }
-        // });
-
         return JSON.parse(localStorage.getItem('radio'));
     }
 
 
     var filtros = function() {
-
-        // $.ajax({
-        //     url: 'data/BDL/filtros.json',
-        //     type: 'POST',
-        //     data: {},
-        //     dataType: 'json',
-        //     cache: false,
-        //     success: function(data, textStatus, jqXHR) {
-        //         return (data);
-        //     },
-        //     error: function(jqXHR, textStatus, errorThrown) {
-        //         console.log(errorThrown);
-        //     }
-        // });
-
         return JSON.parse(localStorage.getItem('filtros'));
-
     };
 
     var point = function() {
@@ -74,15 +45,8 @@ App.Config = (function() {
     }
 
     return {
-
         radio: radio,
         loadDefaults: loadDefaults,
         filtros: filtros
-
-
-
-
     };
-
-
 })();
