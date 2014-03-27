@@ -1,80 +1,80 @@
 [{
         "id": "1",
         "ubicacion": {
-            "longitud": 43.27633,
-            "latitud": -2.024574
+            "latitud": 43.27633,
+            "longitud": -2.024574
         },
         "contenido": ["comidacaliente", "bebidacaliente", "comidafria", "bebidafria", "otros"],
         "urlimagen": "maq3.png"
     }, {
         "id": "2",
         "ubicacion": {
-            "longitud": 43.309628,
-            "latitud": -1.983204
+            "latitud": 43.309628,
+            "longitud": -1.983204
         },
         "contenido": ["comidafria", "bebidafria"],
         "urlimagen": "maq4.png"
     }, {
         "id": "3",
         "ubicacion": {
-            "longitud": 43.321119,
-            "latitud": -1.982775
+            "latitud": 43.321119,
+            "longitud": -1.982775
         },
         "contenido": ["comidacaliente", "bebidafria"],
         "urlimagen": "maq1.png"
     }, {
         "id": "4",
         "ubicacion": {
-            "longitud": 43.293825,
-            "latitud": -1.994534
+            "latitud": 43.293825,
+            "longitud": -1.994534
         },
         "contenido": ["comidacaliente", "comidafria"],
         "urlimagen": "maq2.png"
     }, {
         "id": "5",
         "ubicacion": {
-            "longitud": 43.31681,
-            "latitud": -1.938057
+            "latitud": 43.31681,
+            "longitud": -1.938057
         },
         "contenido": ["comidacaliente", "comidafria", "bebidafria", "otros"],
         "urlimagen": "maq3.png"
     }, {
         "id": "6",
         "ubicacion": {
-            "longitud": 43.315187,
-            "latitud": -1.981144
+            "latitud": 43.315187,
+            "longitud": -1.981144
         },
         "contenido": ["comidacaliente", "bebidacaliente", "bebidafria", "otros"],
         "urlimagen": "maq4.png"
     }, {
         "id": "7",
         "ubicacion": {
-            "longitud": 43.287453,
-            "latitud": -2.014704
+            "latitud": 43.287453,
+            "longitud": -2.014704
         },
         "contenido": ["bebidacaliente", "comidafria", "otros"],
         "urlimagen": "maq1.png"
     }, {
         "id": "8",
         "ubicacion": {
-            "longitud": 43.3145,
-            "latitud": -1.939344
+            "latitud": 43.3145,
+            "longitud": -1.939344
         },
         "contenido": ["bebidacaliente", "bebidafria"],
         "urlimagen": "maq3.png"
     }, {
         "id": "9",
         "ubicacion": {
-            "longitud": 43.302695,
-            "latitud": -1.881924
+            "latitud": 43.302695,
+            "longitud": -1.881924
         },
         "contenido": ["comidacaliente", "comidafria"],
         "urlimagen": "maq2.png"
     }, {
         "id": "10",
         "ubicacion": {
-            "longitud": 43.298198,
-            "latitud": -1.881065
+            "latitud": 43.298198,
+            "longitud": -1.881065
         },
         "contenido": ["comidacaliente", "bebidacaliente", "comidafria", "bebidafria", "otros"],
         "urlimagen": "maq4.png"
