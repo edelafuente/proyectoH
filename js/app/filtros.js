@@ -15,8 +15,6 @@ App.Filtros = (function() {
                 }
             }
         }
-        console.log("MAQUINAS FILTRADAS");
-        console.log($m_filtradas);
         return $m_filtradas;
 
 
