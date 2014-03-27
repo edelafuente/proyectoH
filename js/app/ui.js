@@ -65,7 +65,7 @@ App.Ui = (function() {
                 contenido[k] = contenido[k].replace("bebidafria"," Bebida fría");
                 contenido[k] = contenido[k].replace("otros"," otros");
             }
-            lista.append('<li class="list-group-item" data-id="' + maquinas[i].id + '"><img src="img/'+ maquinas[i].urlimagen.replace(".jpg","_min.jpg") +'"><span>Contenido:' + maquinas[i].contenido + '</li>');
+            lista.append('<li class="list-group-item" data-id="' + maquinas[i].id + '"><img src="img/'+ maquinas[i].urlimagen.replace(".jpg","_min.png") +'"><span> Contenido:' + maquinas[i].contenido + '</li>');
 
         }
 
