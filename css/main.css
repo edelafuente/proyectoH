@@ -1,10 +1,13 @@
+body{
+    background-color: #6cd342;
+}
+
 #titulo{
     background-color: #32aa2e;
     padding: 0.1;
     margin: 0;
 }
 #inicio{
-    background-color: #6cd342;
     height: 430px;
     padding: 1em;
     margin: 0;
@@ -42,7 +45,7 @@ color : #FFF;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
-color : #80e14a;
+color : #7FFA4E;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
@@ -54,7 +57,7 @@ background-color : #3a3;
 }
 
 .navbar-default .navbar-nav > li > a{
-color : #80e14a;
+color : #7FFA4E;
 
 }
 
@@ -90,6 +93,31 @@ background-color: #80e14a;
     background-color: #FFF;
 }
 
+/* LISTA RESULTADOS*/
 .list-group-item{
     background-color: #6cd342;
-/* LISTA RESULTADOS*/
+}
+/* Bottom tabs*/
+.footer{
+    background-color: #32aa2e;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer .pestanas div:first-child{
+    border-right: 1px solid #6cd342;
+}
+
+.footer .pestanas span {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    color: #FFF;
+    font-size: 2em;
+}
+
+.footer .pestanas .activo{
+    background-color: #7FFA4E;
+}
