@@ -89,3 +89,9 @@ background-color: #80e14a;
 .navbar-default .navbar-toggle .icon-bar{
     background-color: #FFF;
 }
+
+/* LISTA RESULTADOS*/
+
+.list-group{
+    background-color: transparent;
+}
