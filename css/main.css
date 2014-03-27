@@ -1,11 +1,11 @@
 #titulo{
-    background-color: ForestGreen;
+    background-color: #32aa2e;
     padding: 0.1;
     margin: 0;
 }
 #inicio{
-    background-color: YellowGreen;
-    height: 480px;
+    background-color: #6cd342;
+    height: 430px;
     padding: 1em;
     margin: 0;
 }
@@ -42,11 +42,11 @@ color : #FFF;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
-color : #AFA;
+color : #80e14a;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-background-color : #AFA;
+background-color : #80e14a;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
@@ -54,7 +54,7 @@ background-color : #3a3;
 }
 
 .navbar-default .navbar-nav > li > a{
-color : #AFA;
+color : #80e14a;
 
 }
 
@@ -65,11 +65,27 @@ color : #FFF;
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
 
 color: #555;
-background-color: #AFA;
+background-color: #80e14a;
 
 
 }
 
 .navbar.navbar-default.navbar-static-top{
     margin-bottom: 0;
+    border-bottom-width: 0;
+}
+
+.navbar.navbar-default.navbar-static-top > div > div.navbar-collapse.collapsing{
+    border-top-width: 0;
+}
+.navbar-collapse{
+    box-shadow: none;
+}
+
+.navbar.navbar-default.navbar-static-top > div > div.navbar-collapse.collapse.in{
+    border-top-width: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #FFF;
 }
