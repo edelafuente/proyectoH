@@ -9,7 +9,7 @@ App.Localizador = (function($) {
         } else if (err.code == 2) {
             console.log("Error: Position is unavailable!");
         }
-    }
+    };
 
 
 
