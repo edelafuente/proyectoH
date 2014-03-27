@@ -106,7 +106,7 @@ background-color: #80e14a;
     width: 100%;
 }
 
-.footer .pestanas div:first-child{
+.footer .pestanas div{
     border-right: 1px solid #6cd342;
 }
 
