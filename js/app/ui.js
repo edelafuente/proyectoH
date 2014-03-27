@@ -4,10 +4,10 @@ App.Ui = (function() {
 
     var mostrarMaquinas = function(maquinas){
 
-        var lista = $('<ul/>', {});
+        var lista = $('<ul/>', {class : 'lista'});
 
         for (var i = maquinas.length - 1; i >= 0; i--) {
-            lista.append('<li data-id="' + maquinas[i].id + '"><img src="img/'+ maquinas[i].urlimagen +'" style="width:10%"><span>Contenido:' + maquinas[i].contenido + '</li>');
+            lista.append('<li data-id="' + maquinas[i].id + '"><img src="img/'+ maquinas[i].urlimagen.replace(".jpg","_min.jpg") +'" style="width:10%"><span>Contenido:' + maquinas[i].contenido + '</li>');
         }
 
     };
