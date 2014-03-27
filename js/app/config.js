@@ -31,7 +31,7 @@ App.Config = (function() {
 
     var radio = function() {
         return JSON.parse(localStorage.getItem('radio'));
-    }
+    };
 
 
     var filtros = function() {
@@ -42,7 +42,7 @@ App.Config = (function() {
 
         // BUSCAR Y DEVOLVER EL PUNTO QUE HA ELEGIDO EL USUARIO.
 
-    }
+    };
 
     return {
         radio: radio,

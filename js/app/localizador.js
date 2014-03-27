@@ -9,7 +9,7 @@ App.Localizador = (function($) {
         if (typeof(Number.prototype.toRad) === "undefined") {
             Number.prototype.toRad = function() {
                 return this * Math.PI / 180;
-            }
+            };
         }
 
         var maq = [];
@@ -32,8 +32,8 @@ App.Localizador = (function($) {
             var e = radio[0].radio - d;
             if (e >= 0) {
 
-                maq.push(val)
-            };
+                maq.push(val);
+            }
 
             console.log("MAQ");
             console.log(maq);
@@ -50,6 +50,7 @@ App.Localizador = (function($) {
             console.log("Error: Position is unavailable!");
         }
     };
+
 
     var localizateWithGPS = function(radio, success) {
         if (navigator.geolocation) {

@@ -4,12 +4,10 @@ App.Data = (function() {
     var conseguirMaquina = function(id, success) {
 
         var _maquina = JSON.parse(localStorage.getItem('maquinas'));
-        jQuery.map(maquinas, function(obj) {
+        _maquina = jQuery.map(_maquina, function(obj) {
             if (obj.id === id)
-                return obj; // or return obj.name, whatever.
+                success(obj); // or return obj.name, whatever.
         });
-
-        console.log(_maquina);
 
     };
     var guardarMaquinas = function(maquinas, success) {
