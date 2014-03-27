@@ -89,3 +89,7 @@ background-color: #80e14a;
 .navbar-default .navbar-toggle .icon-bar{
     background-color: #FFF;
 }
+
+.list-group-item{
+    background-color: #6cd342;
+}
