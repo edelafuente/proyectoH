@@ -1,32 +1,70 @@
 ﻿var App = App || {};
-App.Localizador = (function ($){
+App.Localizador = (function($) {
     'use strict';
 
-    var localizateWithGPS = function(Radio, GPS, success){
-        localizate(Radio, GPS, success);
+
+    var errorHandler = function(err) {
+        if (err.code == 1) {
+            console.log("Error: Access is denied!");
+        } else if (err.code == 2) {
+            console.log("Error: Position is unavailable!");
+        }
+    }
+
+
+
+    var localizateWithGPS = function(radio, success) {
+        if (navigator.geolocation) {
+            // timeout at 60000 milliseconds (60 seconds)
+            var options = {
+                timeout: 60000
+            };
+
+            navigator.geolocation.getCurrentPosition(function(position) {
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+
+                    var GPS = {
+                        'GPS': {
+                            'lat': latitude,
+                            'lng': longitude
+                        }
+                    };
+
+                    localizate(radio, GPS, success);
+                },
+                errorHandler,
+                options);
+
+        }
+        //getLocation(radio, success);
+
+        // localizate(radio, navigator.getcurrentposition, success);
     };
 
-    var localizateWithoutGPS = function(Radio, success){
+    var localizateWithoutGPS = function(radio, point, success) {
         // Obtener posicion
-        localizate(Radio, GPS, success);
+        localizate(radio, point, success);
     };
 
-    var localizate = function(Radio, GPS, success){
+    var localizate = function(radio, GPS, success) {
+
+        console.log(GPS);
 
         $.ajax({
-            url : '../../data/maquinas.json',
-            type : 'GET',
+            url: 'data/servidor/maquinas.json',
+            type: 'GET',
             data: {
-                    radio : Radio,
-                    lat : GPS.lat,
-                    lng : GPS.lng
-                },
-            dataType : 'json',
-            cache : false,
-            success : function(data){
+                radio: radio,
+                lat: GPS.lat,
+                lng: GPS.lng
+            },
+            dataType: 'json',
+            cache: false,
+            success: function(data) {
                 success(data);
             },
-            error : function(jqXHR, textStatus, errorThrown){
+            error: function(jqXHR, textStatus, errorThrown) {
                 console.log(errorThrown);
             }
         });
@@ -34,7 +72,7 @@ App.Localizador = (function ($){
     };
 
     return {
-        localizateWithGPS : localizateWithGPS,
-        localizateWithoutGPS : localizateWithoutGPS
+        localizateWithGPS: localizateWithGPS,
+        localizateWithoutGPS: localizateWithoutGPS
     };
 })(jQuery);
