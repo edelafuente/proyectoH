@@ -2,6 +2,10 @@ body{
     background-color: #6cd342;
 }
 
+html, body{
+    height: 100%;
+}
+
 #titulo{
     background-color: #32aa2e;
     padding: 0.1;
@@ -45,15 +49,15 @@ color : #FFF;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
-color : #7FFA4E;
+color : #555;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-background-color : #80e14a;
+background-color : #32aa2e;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
-background-color : #3a3;
+background-color : #32aa2e;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -67,8 +71,8 @@ color : #FFF;
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
 
-color: #555;
-background-color: #80e14a;
+color: #7FFA4E;
+background-color: #32aa2e;
 
 
 }
@@ -94,23 +98,35 @@ background-color: #80e14a;
 }
 
 /* LISTA RESULTADOS*/
+.list-group{
+    padding-bottom: 60px;
+}
+
 .list-group-item{
     background-color: #6cd342;
+    border-color: #32aa2e;
+    color: #FFF;
 }
+
+/*detalles */
+.detalle{
+    color: #FFF;
+}
+
 /* Bottom tabs*/
-.footer{
+#footer{
     background-color: #32aa2e;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
 }
 
-.footer .pestanas div{
+#footer .pestanas div{
     border-right: 1px solid #6cd342;
 }
 
-.footer .pestanas span {
+#footer .pestanas span {
     display: inline-block;
     width: 100%;
     padding: 10px;
@@ -118,6 +134,16 @@ background-color: #80e14a;
     font-size: 2em;
 }
 
-.footer .pestanas .activo{
-    background-color: #7FFA4E;
+#footer .pestanas .activo{
+    background-color: #6cd342;
+}
+
+/*font-awesome*/
+
+.fa-spin{
+    font-size: 12em;
+    color: #FFF;
+    position: fixed;
+    bottom: 50%;
+    left: 35%;
 }

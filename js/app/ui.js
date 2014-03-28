@@ -21,7 +21,7 @@ App.Ui = (function() {
             lista.append('<li class="list-group-item" data-id="' + maquinas[i].id + '"><img src="img/' + maquinas[i].urlimagen.replace(".png", "_min.png") + '"><span> ' + maquinas[i].contenido + '</li>');
 
         }
-
+        $('#footer').load('lista.html');
         $('#inicio').html(lista);
 
     };
@@ -39,13 +39,21 @@ App.Ui = (function() {
 
             var detalle = $('<div class="detalle"><img src="img/' + maquina.urlimagen + '"><p>' + maquina.contenido + '</p></div>');
 
+        $('#footer').load('detalles.html');
         $('#inicio').html(detalle);
+
+    };
+
+    var mostrarInicio = function(){
+        $('#inicio').load('inicio.html');
+        $('#footer').load(' ');
 
     };
 
     return {
         mostrarMaquinas: mostrarMaquinas,
-        mostrarDetalles: mostrarDetalles
+        mostrarDetalles: mostrarDetalles,
+        mostrarInicio: mostrarInicio
     };
 
 
